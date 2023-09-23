@@ -1,0 +1,213 @@
+@import url(https://db.onlinewebfonts.com/c/c069e8e801b8222372b276c6310249c2?family=Gyahegi-PersonalUse);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    position: relative;
+    height: 5vh;
+    width: 100vw; 
+    background-color: #fac722;
+}
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fac722;
+
+}
+.centre>h1{
+    font-size: 1.4vw;
+    color: #417208;
+    font-weight: 800;
+    position: absolute;
+    bottom: 87%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    cursor: pointer;
+}
+.centre>h2{
+    font-size: 1vw;
+    color: #417208;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    cursor: pointer;
+}
+.centre>h3{
+    margin-left: 10%;
+    margin-top: 25%;
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #417208;
+    width: 80%;
+    font-family: "Gyahegi-PersonalUse";
+}
+.centre{
+left: 50%;
+top: 15%;
+transform: translateX(-50%);
+position: absolute;
+height: 60vh;
+width: 50vw;
+background-color: #fff;
+box-shadow: 0 1px 15px rgba(208, 48, 48, 0.6); 
+text-align: center;
+}
+ul{
+    position: absolute;
+    top:  0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    
+    
+}
+ul li ,a{
+    display: inline-block;
+    color: #fff;
+    font-family: "Gyahegi-PersonalUse";
+    justify-content: end;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: .8vw;
+    font-weight: 900;
+    transition: 0.6s;
+    text-decoration: none;
+    padding-right: 1vw;
+}
+ul li{
+    margin: 5px 20px;
+}
+#page1>ul>li,a:hover{
+    color:#417208 ;
+}
+#mid>.mid-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #fff;
+}
+#page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fac722;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#page2>.left{
+    
+    height: 4vh;
+    width: 5vw;
+    background-color: 2px solid blue;
+    background-color: #fff;
+}
+.one>img{
+    position: relative;
+    height: 80vh;
+    width: 28vw;
+}
+.two>img{
+    position: relative;
+    height: 80vh;
+    width: 28vw;
+}
+.three>img{
+    position: relative;
+    height: 80vh;
+    width: 28vw;
+}
+#bottom{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    background-color: rgb(248, 167, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #bottom>footer{
+        height: 45vh;
+        width: 85vw;
+        background-color: #f6efef;
+        position: absolute;
+        left: 7%;
+        top: 13%;
+    
+    }
+    #bottom>footer>img{
+        height: 10vh;
+        width: 8vw;
+        margin-left: 89%;
+        margin-bottom: 10%;
+    }
+    
+    #mid>h1{
+        font-family: "Gyahegi-PersonalUse";
+        
+        color: #417208;
+        font-size: 1vw;
+        /* margin-top: 30px; */
+       
+    }
+    #mid{
+        text-align: center;
+    }
+    #mid>h3{
+        /* font-family: forum,serif */
+        font-family: dancingscript-regular,dancing script,cursive;
+        /* font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
+        
+        color: #417208;
+        font-size: 1.3vw;
+        margin-top: 50px;
+        font-weight: 600vw;
+    }
+    #left>h1{
+        font-family: "Gyahegi-PersonalUse";
+        color: #417208;
+        font-size: 1vw;
+        margin-left: 2vw;
+        margin-bottom: 1vw;
+    }
+    #left>h2{
+        font-family: dancingscript-regular,dancing script,cursive;
+        align-items: center;
+        font-size: 1vw;
+        color: #417208;
+        margin-left: 2vw;
+    }
+    #left>h3{
+        font-family: dancingscript-regular,dancing script,cursive;
+        align-items: center;
+        font-size: 1vw;
+        color: #417208;
+        margin-left: 4vw;
+    }
+    

@@ -1,0 +1,359 @@
+@import url(https://db.onlinewebfonts.com/c/c069e8e801b8222372b276c6310249c2?family=Gyahegi-PersonalUse);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#page1>img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 60vw;
+    width: 100vw;
+
+}
+
+#page1>h1 {
+    font-size: 6.5vw;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-53%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    
+    font-style: italic;
+    
+    cursor: pointer;
+}
+
+#page1>h3 {
+    font-size: 2vw;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 47%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    cursor: pointer;
+}
+#page1>button {
+    position: absolute;
+    /* border: 2px solid #fff; */
+    border-radius: 50px;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 13px 35px;
+    font-size: 1vw;
+    font-weight: 400;
+    background-color: #87b552;
+    cursor: pointer;
+    font-family: "Gyahegi-PersonalUse";
+    border: none;
+    color: #fff;
+}
+#page1>button:hover{
+    background-color: #fff;
+    border: 1px solid #87b552;
+    color: #87b552;
+    transition: 0.5s;
+}
+ul{
+    position: absolute;
+    top:  0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    
+    
+}
+ul li ,a{
+    display: inline-block;
+    color: #fff;
+    font-family: "Gyahegi-PersonalUse";
+    justify-content: end;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: .8vw;
+    font-weight: 900;
+    transition: 0.6s;
+    text-decoration: none;
+    padding-right: 1vw;
+}
+ul li{
+    margin: 5px 20px;
+}
+#page1>ul>li,a:hover{
+    color:#417208 ;
+}
+
+#page2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #bce78c;   
+}
+
+#page2>video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+
+}
+
+#page2>h1 {
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    cursor: pointer;
+}
+
+#page3 {
+    position: relative;
+    height: 89vh;
+    width: 100vw;
+    background-color: #afe76e;
+
+}
+
+#page3>img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7vw;
+    /* margin-left: 15vw; */
+   /
+   /* margin-bottom: 3px; */
+}
+#page3>h1 {
+    font-size: 8vw;
+    color: #fff;
+    font-weight: 1000;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    cursor: pointer;
+}
+#page3>h3 {
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-weight: 600;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: "Gyahegi-PersonalUse";
+}
+
+/* #page3>button {
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 50px;
+    bottom: 50%;
+    left: 80%;
+    transform: translateX(-50%);
+    padding: 15px 35px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    background-color: #d6682d;
+    cursor: pointer;
+    color: #fff;
+} */
+
+#page3>button:hover {
+    /* background-color: #f5f5f7; */
+    cursor: pointer;
+}
+
+#page4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6efef;
+    justify-content: space-around;
+}
+
+/* #page4>{
+        position: absolute;
+    } */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    margin-left: 5vw;
+    /* margin-top: 1vw; */
+    padding: 10px 10px;
+
+}
+
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    /* background-image: url('/images/page5.jpg');
+    background-repeat: no-repeat; */
+}
+#page5>img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 60vw;
+    width: 100vw;
+    position: relative;
+    
+
+}
+#page5>h1 {
+    font-size: 5vw;
+    color: #ec6666;
+    font-weight: 1000;
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: "Gyahegi-PersonalUse";
+    cursor: pointer;
+}
+#page5>h3{
+    position: absolute;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #000;
+    width: 80%;
+    font-family: "Gyahegi-PersonalUse";
+}
+#page5>button{
+    position: absolute;
+    /* border: 2px solid #fff; */
+    border-radius: 50px;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 13px 39px;
+    font-size: 1vw;
+    font-weight: 400;
+    background-color: transparent;
+    border:1.5px solid#87b552;
+    cursor: pointer;
+    font-family: "Gyahegi-PersonalUse";
+    /* border: none; */
+    color: #87b552;
+}
+#page5>button:hover{
+    background-color: #87b552;
+    color: #fff;
+    border: none;
+    transition: .9s;
+}
+#bottom{
+width: 100vw;
+height: 60vh;
+position: relative;
+background-color: rgb(248, 167, 180);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#bottom>footer{
+    height: 45vh;
+    width: 85vw;
+    background-color: #f6efef;
+    position: absolute;
+    left: 7%;
+    top: 13%;
+
+}
+#bottom>footer>img{
+    height: 10vh;
+    width: 8vw;
+    margin-left: 89%;
+    margin-bottom: 10%;
+}
+
+#mid>h1{
+    font-family: "Gyahegi-PersonalUse";
+    
+    color: #417208;
+    font-size: 1vw;
+    /* margin-top: 30px; */
+   
+}
+#mid{
+    text-align: center;
+}
+#mid>h3{
+    /* font-family: forum,serif */
+    font-family: dancingscript-regular,dancing script,cursive;
+    /* font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
+    
+    color: #417208;
+    font-size: 1.3vw;
+    margin-top: 50px;
+    font-weight: 600vw;
+}
+#left>h1{
+    font-family: "Gyahegi-PersonalUse";
+    color: #417208;
+    font-size: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 1vw;
+}
+#left>h2{
+    font-family: dancingscript-regular,dancing script,cursive;
+    align-items: center;
+    font-size: 1vw;
+    color: #417208;
+    margin-left: 2vw;
+}
+#left>h3{
+    font-family: dancingscript-regular,dancing script,cursive;
+    align-items: center;
+    font-size: 1vw;
+    color: #417208;
+    margin-left: 4vw;
+}
